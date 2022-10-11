@@ -159,23 +159,16 @@ div.icon-arrow
     display: inline;
     padding: 15px;
     margin: 3%;
+    cursor: pointer;
     position: fixed;
-    bottom: -30px;
+        bottom: -30px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 
 }
-div.icon-arrow:hover
-{
-    position: relative;
-        bottom: 30px;
-        transition-property: padding;
-        transition-duration: 1s;
-        transition-timing-function: ease;
-        transition-delay: .5s;
-}
+
 div.icon-arrow  a i
 {  color: #fff;  } 
 
